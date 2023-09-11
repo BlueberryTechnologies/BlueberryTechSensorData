@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Server Monitoring</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body onload="updateData()">
+    <h1>Blueberry Server Monitoring Dashboard</h1>
+    <div class="container">
+      <div class="widget">
+        <h2>CPU Temperature</h2>
+        <p class="reading" id="cpu-temp">Loading...</p>
+      </div>
+      <div class="widget">
+        <h2>CPU Load</h2>
+        <p class="reading" id="cpu-load">Loading...</p>
+      </div>
+      <div class="widget">
+        <h2>RAM Usage</h2>
+        <p class="reading" id="ram-usage">Loading...</p>
+      </div>
+      <div class="widget">
+        <h2>Server Uptime</h2>
+        <p class="reading" id="uptime">Loading...</p>
+      </div>
+      <div class="widget">
+        <h2>Disk Load</h2>
+        <p class="reading" id="disk-load">Loading...</p>
+      </div>
+      <div class="widget">
+        <h2>Wattage Consumed</h2>
+        <p class="reading" id="wattage">Loading...</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>Last Data Refresh: <span id="refresh">NULL</span>.</p>
+      <p>Last Server Restart: <span id="restart">NULL</span>.</p>
+    </footer>
+
+    <script src="Scripts/logging.js"></script>
+  </body>
+</html>

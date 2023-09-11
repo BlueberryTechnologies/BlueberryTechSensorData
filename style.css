@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.widget {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+.reading {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #ddd;
+  padding: 10px;
+  text-align: center;
+  margin-top: auto;
+}
