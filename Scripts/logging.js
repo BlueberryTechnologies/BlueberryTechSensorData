@@ -9,7 +9,7 @@ function updateData() {
   setTimeout(updateData, 61000);
 }
 
-let path = "~/SensorData/Data";
+let path = "~/SensorData/Data"; // You can specify a local path where you would like to store the files.
 
 function updateValues() {
   try {
